@@ -1,0 +1,19 @@
+# Ignore model files
+model.pth
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Node
+node_modules/
+
+# Database
+users.db
+
+# Environment variables
+.env
