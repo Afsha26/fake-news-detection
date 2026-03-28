@@ -87,6 +87,65 @@ npm install
 npm run dev
 ```
 
+Got it 👍 — here’s the **updated README section** clearly mentioning the **backend folder**.
+
+You can paste this directly 👇
+
+---
+
+# 📦 Model Download Instructions
+
+## ⚠️ Model File Not Included
+
+Due to GitHub file size limitations, the trained model file (`model.pth`) is not included in this repository.
+
+---
+
+## 🔽 Download Model
+
+Download the trained model from the link below:
+
+👉 [Download model.pth](https://drive.google.com/file/d/1Uw3aCpqN3NzvepBHigRG7pZxj1CBILrm/view?usp=drive_link)
+
+---
+
+## 📁 Placement Instructions
+
+After downloading:
+
+1. Ensure the file name is:
+
+```plaintext
+model.pth
+```
+
+2. Place it inside the **backend folder** (the folder where `app.py` is located)
+
+---
+
+### 📂 Example Project Structure:
+
+```plaintext
+project/
+│
+├── backend/
+│   ├── app.py
+│   ├── model.pth   ← place here ✅
+│   ├── tokenizer/
+│
+├── frontend/
+│   ├── src/
+│   └── package.json
+│
+└── requirements.txt
+```
+
+## ⚠️ Important Notes
+
+* Make sure the file is inside the **backend folder**
+* Do NOT place it inside the `frontend` folder
+* Backend will not work if `model.pth` is missing
+
 ---
 
 ## 🌐 Application URLs
